@@ -31,9 +31,6 @@ int main()
                             0.0547};
 /************************************/
 
-
-
-
     IMU_set_config(&IMU_default);
 
     cout<<"settings "<<IMU_default<<endl;

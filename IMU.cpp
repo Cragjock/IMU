@@ -79,19 +79,6 @@ void IMU_set_config(settings* IMUset)
     cr_data = IMUset->mag_DM;
     myI2C_write(I2C_FP[MAG], CTRL_REG3_M, cr_data);
 
-/***********************************
-    m_LSM9DS1GyroSampleRate = LSM9DS1_GYRO_SAMPLERATE_119;
-    m_LSM9DS1GyroBW = LSM9DS1_GYRO_BANDWIDTH_1;
-    m_LSM9DS1GyroHpf = LSM9DS1_GYRO_HPF_4;
-    m_LSM9DS1GyroFsr = LSM9DS1_GYRO_FSR_500;
-
-    m_LSM9DS1AccelSampleRate = LSM9DS1_ACCEL_SAMPLERATE_119;
-    m_LSM9DS1AccelFsr = LSM9DS1_ACCEL_FSR_8;
-    m_LSM9DS1AccelLpf = LSM9DS1_ACCEL_LPF_50;
-
-    m_LSM9DS1CompassSampleRate = LSM9DS1_COMPASS_SAMPLERATE_20;
-    m_LSM9DS1CompassFsr = LSM9DS1_COMPASS_FSR_4;
-**************************************/
 
 }
 
@@ -148,9 +135,6 @@ int IMU_data_convert(unsigned char* data)
 return 0;
 
 }
-
-
-
 
 
 

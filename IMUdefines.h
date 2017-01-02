@@ -17,7 +17,6 @@
 #define HP_EN               0x40    ///set bit 7
 #define HP_DISABLE          0x00    /// clear bit 7
 
-
 ///  Mag MD
 #define Mag_CONT        0
 #define Mag_SINGLE      1

@@ -83,6 +83,7 @@
 #define INT_THS_L_M         0x32
 #define INT_THS_H_M         0x22
 
+
 /// 2-complement macro
 #define TC_CONVERT(x)   ((~x)+1)
 

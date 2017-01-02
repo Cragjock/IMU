@@ -44,5 +44,4 @@ int myI2C_write_index(int index);
 
 
 
-
 #endif // MY_I2C_H

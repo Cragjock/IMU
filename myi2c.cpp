@@ -61,7 +61,6 @@ int myI2C_write(int myFP, int reg_request, int data)
     return result;
 }
 
-
 /**********************************/
 ///
 int myI2C_read_block(int myFP, int reg_request, int rd_size, unsigned char* readbuffer)
